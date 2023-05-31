@@ -4,6 +4,6 @@ kind: SecretImport
 metadata:
   name: git-creds
   annotations:
-    tekton.dev/git-0: ${GIT_SERVER_URL}
+    tekton.dev/git-0: https://github.com
 spec:
   fromNamespace: tap-install
