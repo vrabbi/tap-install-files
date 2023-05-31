@@ -1,0 +1,7 @@
+---
+apiVersion: secretgen.carvel.dev/v1alpha1
+kind: SecretImport
+metadata:
+  name: cosign-key-pair
+spec:
+  fromNamespace: tap-install
